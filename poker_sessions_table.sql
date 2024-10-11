@@ -18,7 +18,7 @@ create table poker_sessions (
   add_on int null,
   num_entries int null,
   places_paid int null,
-  prize_pool int null,
+  prize_pool bigint null,
   num_players int null,
   place int null,
   adjusted_place int null,
