@@ -55,4 +55,16 @@ insert into poker_sessions (
   poker_style,tournament_letter,poker_session_date,buy_in,entry_fee,initial_stake,num_players,poker_flavor,place,winnings,num_entries,places_paid
 )
 values (2,'c','2024-01-24',18.20,1.80,5000,9,3,24,0,89,15);
+insert into poker_sessions (
+  poker_style,tournament_letter,poker_session_date,buy_in,entry_fee,initial_stake,num_players,poker_flavor,place,winnings,num_entries,places_paid
+)
+values (2,'a','2024-10-26',27.30,2.70,5000,9,3,0,0,79,13);
+insert into poker_sessions (
+  poker_style,tournament_letter,poker_session_date,buy_in,entry_fee,initial_stake,num_players,poker_flavor,place,winnings,num_entries,places_paid
+)
+values (2,'a','2024-10-27',9.10,0.90,5000,9,3,32,0,189,31);
+insert into poker_sessions (
+  poker_style,tournament_letter,poker_session_date,buy_in,entry_fee,initial_stake,num_players,poker_flavor,place,winnings,num_entries,places_paid
+)
+values (2,'b','2024-10-27',18.20,1.80,5000,9,3,14,0,79,13);
 quit
