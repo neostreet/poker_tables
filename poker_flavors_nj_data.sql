@@ -10,7 +10,7 @@ insert into poker_flavors (
 values (
   0,
   'Pot Limit Hold''em',
-  'PLHE  '
+  'PLHE'
 );
 
 insert into poker_flavors (
@@ -21,7 +21,7 @@ insert into poker_flavors (
 values (
   1,
   'Pot Limit Omaha',
-  'PLO   '
+  'PLO'
 );
 
 insert into poker_flavors (
@@ -32,7 +32,7 @@ insert into poker_flavors (
 values (
   2,
   'Limit 7 Card Stud',
-  '7Stud '
+  'Stud'
 );
 
 insert into poker_flavors (
@@ -43,7 +43,7 @@ insert into poker_flavors (
 values (
   3,
   'No Limit Hold''em',
-  'NLHE  '
+  'NLHE'
 );
 
 insert into poker_flavors (
@@ -87,7 +87,7 @@ insert into poker_flavors (
 values (
   7,
   'Limit Hold''em',
-  'LHE   '
+  'LHE'
 );
 
 insert into poker_flavors (
@@ -98,7 +98,7 @@ insert into poker_flavors (
 values (
   8,
   'Limit Triple Draw 2-7 Lowball',
-  'L27Lo '
+  'L27Lo'
 );
 
 insert into poker_flavors (
@@ -120,7 +120,7 @@ insert into poker_flavors (
 values (
   10,
   'HORSE',
-  'HORSE '
+  'HORSE'
 );
 
 insert into poker_flavors (
@@ -143,6 +143,50 @@ values (
   12,
   'No Limit 6+ Hold''em',
   'NL6+HE'
+);
+
+insert into poker_flavors (
+  poker_flavor,
+  poker_flavor_descr,
+  poker_flavor_abbrev
+)
+values (
+  13,
+  'No Limit 5 Card Draw',
+  'NL5draw'
+);
+
+insert into poker_flavors (
+  poker_flavor,
+  poker_flavor_descr,
+  poker_flavor_abbrev
+)
+values (
+  14,
+  'Limit Razz',
+  'Razz'
+);
+
+insert into poker_flavors (
+  poker_flavor,
+  poker_flavor_descr,
+  poker_flavor_abbrev
+)
+values (
+  15,
+  'Limit Stud Hi/Lo',
+  'Stud HiLo'
+);
+
+insert into poker_flavors (
+  poker_flavor,
+  poker_flavor_descr,
+  poker_flavor_abbrev
+)
+values (
+  16,
+  'No Limit Omaha Hi/Lo',
+  'NLO HiLo'
 );
 
 quit
