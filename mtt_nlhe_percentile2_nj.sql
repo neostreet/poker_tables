@@ -1,6 +1,6 @@
 use poker_nj
 
-select ((num_entries - place) / num_entries) percentile,
+select ((num_entries - place) / num_entries) percentile,(num_entries - place) outlast,
 num_entries,places_paid,place,winnings,
 concat(poker_session_date,tournament_letter)
 from poker_sessions
