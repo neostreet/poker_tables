@@ -90,4 +90,15 @@ values (
   'MTT-B'
 );
 
+insert into poker_styles (
+  poker_style,
+  poker_style_descr,
+  poker_style_abbrev
+)
+values (
+  8,
+  'MTT with guaranteed prize pool',
+  'MTT-G'
+);
+
 quit
