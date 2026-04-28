@@ -123,3 +123,5 @@ unfixtxt year_delta_mtt_nlhe.out
 call copyout year_delta_mtt_nlhe
 call runtot_int_it year_delta_mtt_nlhe
 mysql_grab year_mtt_nlhe_split
+call above_water_count_verbose_it year_delta6_summaryb
+call above_water_count_verbose_not_it year_delta6_summaryb
